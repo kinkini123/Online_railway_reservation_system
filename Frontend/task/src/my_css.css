@@ -1,0 +1,256 @@
+.home {
+  background-image: url("./images/1001.jpg");
+  height: 100%;
+  width: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* -----------------------for home page animation--------------------------- */
+
+/* ----------------------------for nav bar----------------------------- */
+#nav {
+  color: black;
+  font-size: small;
+  font-weight: bold;
+  padding: 10px 15px 20px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#login {
+  background-color: #000066;
+
+  border-radius: 0%;
+  height: 3rem;
+}
+#search {
+  background-color: #ff5c3e;
+  color: #ffffff;
+}
+#train {
+  color: #ff5c3e;
+  font-size: small;
+  font-weight: bold;
+  padding: 10px 15px 20px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer {
+  width: 100%;
+  height: 70px;
+  padding-top: 25px;
+  position: fixed;
+  font-weight: bold;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: #000066;
+  text-align: center;
+}
+#footer1 {
+  width: 100%;
+  height: 70px;
+  margin-top: 15rem;
+  padding-top: 25px;
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: #000066;
+  text-align: center;
+}
+#form {
+  margin-left: 27rem;
+  width: 27rem;
+
+  position: relative;
+  backdrop-filter: blur(5px);
+
+  padding: 10px 5px 10px 5px;
+}
+
+.wrapper {
+  text-align: center;
+  font-weight: bolder;
+}
+.row {
+  height: 15rem;
+  width: 100%;
+  margin-top: 100rem;
+  background-color: #e6f2ff;
+  opacity: inherit;
+}
+#loginform {
+  width: 100%;
+
+  height: 100%;
+}
+#submit {
+  background-color: #ff5c3e;
+  color: #ffffff;
+}
+#registrationform {
+  margin-left: 27rem;
+  width: 27rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  backdrop-filter: blur(5px);
+
+  padding: 20px 5px 10px 5px;
+}
+#footer2 {
+  width: 100%;
+  height: 70px;
+  padding-top: 25px;
+  margin-top: 5rem;
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: #000066;
+  text-align: center;
+}
+/* ---------------Contact page---------------------- */
+
+/* ------------------------------authentication profile----------------- */
+label {
+  display: block;
+  margin-top: 10px;
+}
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.profilepage {
+  width: 100%;
+  height: 100%;
+}
+
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container1 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu main main main main main'
+    'footer footer footer footer footer footer';
+  gap: 5px;
+ 
+  padding: 10px;
+}
+
+.grid-container1 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+/* --------------------about page-------------------- */
+.pr {
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 20px, 20px, 20px, 20px;
+  margin: 65px, 10px, 9px, 10px;
+  font-family: sans-serif;
+  width: 100%;
+  text-shadow: 2px 2px rgb(10, 10, 10);
+  color: rgb(240, 228, 228);
+}
+.item {
+  margin: 4px 5px 20px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+  min-height: 450px;
+  margin-bottom: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(238, 243, 233);
+  border-style: solid;
+
+  border-color: black;
+}
+.grid {
+  display: flex;
+  height: 70vh;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* transition: all 0.8s ease; */
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5px, 1fr));
+  grid-gap: 12px;
+}
+#vision {
+color: #fff;
+  
+
+}
+#mision {
+  color: #fff;
+    backdrop-filter: blur(4px);
+
+}
+#core {
+  color: #fff;
+
+
+}
+.para {
+  color: #fff;
+  font-family: sans-serif;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+.it{
+  
+ 
+  margin-top: 5rem;
+}
+/* -----------------------------contact---------------------------------- */
+.contact1{
+  background-color:  rgba(255, 255, 255, 0.8);
+  width: 60rem;
+  margin-left: 12rem;
+ 
+}
